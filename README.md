@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Meu Portfólio em React 👩‍💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao meu projeto de portfólio desenvolvido em React. Este é o lugar onde compartilho minhas experiências profissionais, projetos e informações de contato. Sinta-se à vontade para explorar e conhecer um pouco mais sobre mim.
 
-## Available Scripts
+### Como Iniciar o Projeto 🚀
 
-In the project directory, you can run:
+Para executar este projeto em sua máquina local, siga as etapas abaixo:
 
-### `npm start`
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Faça o download ou clone este repositório:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/gabi-ramires/Portfolio_v2.git
+    ```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Navegue até o diretório do projeto:
+   ```bash
+   cd Portfolio_v2
+    ```
+4. Instale as dependências do projeto:
+   ```bash
+   npm install
+    ```
+5. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+    ```
 
-### `npm run build`
+### Experiências Profissionais ⛏️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Cargo:** Estagiária de Suporte Técnico na KingHost (08/2022 - 02/2023)
+  - Suporte técnico humanizado através dos canais de atendimento oferecidos pela empresa.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Cargo:** Assist. de Desenvolvimento na KingHost (02/2023 - Atual)
+  - Desenvolvimento Sistemas WEB e de Scripts com uso das melhores práticas no sistema de hospedagem de sites e emails.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Projetos Destacados 📚
 
-### `npm run eject`
+- [**Space Invaders:**](https://serimar.epizy.com/) Jogo de nave espacial
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [**API Naruto:**](https://github.com/gabi-ramires/naruto) Aplicação em React que consome a API NarutoDB 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contato ☎️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **E-mail:** contato@gabrielaramires.com.br
+- **LinkedIn:** [linkedin.com/in/gabi-ramires](https://www.linkedin.com/in/gabi-ramires/)
+- **GitHub:** [github.com/gabi-ramires](https://github.com/gabi-ramires)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fique à vontade para entrar em contato comigo para discutir oportunidades de colaboração ou qualquer outra dúvida.

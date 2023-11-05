@@ -1,0 +1,41 @@
+.projeto {
+    height: 200vh;
+}
+
+.titulo {
+  text-align: center;
+  margin: auto;
+    border:1x solid red;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardPro {
+    height: 100%;
+    padding: 10px;
+    background-color: #212529;
+    border: 1px solid #303132;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 250px;
+    height: 500px;
+    margin-bottom: 20px;
+    
+}
+
+.cardPro:hover {
+    box-shadow: 0 0 5px #1C7ED6;
+}
+
+.cardPro img {
+    border-radius: 30px;
+}
+

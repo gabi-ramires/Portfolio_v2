@@ -1,0 +1,82 @@
+.jobs {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo {
+  text-align: center;
+  margin: auto;
+}
+
+.superior {
+    height: 50vh;
+}
+
+.inferior {
+    height: 50vh;
+}
+
+
+.linhaTempo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flecha {
+    display: flex;
+    align-items: center; /* Alinhar elementos verticalmente no centro */
+    justify-content: center;
+}
+
+.flecha-container {
+    display: flex;
+    align-items: center; /* Alinhar elementos verticalmente no centro */
+    justify-content: center; /* Centralizar horizontalmente */
+}
+
+.bola {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #1C7ED6;
+}
+
+.linha {
+    background-color: #1C7ED6;
+    width: 25%;
+    height: 5px; /* Ajuste a altura desejada da linha */
+}
+
+.ponta {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #1e90ff; /* Borda esquerda preenchida */
+    border-right: 20px solid transparent; /* Borda direita transparente */
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+
+.parte {
+    height: 100%;
+    width: 25%;
+    padding-left: 25px;
+}
+
+.card {
+    height: 100%;
+    width: 15%;
+    padding: 10px;
+    background-color: #212529;
+    border: 1px solid #303132;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+
+
