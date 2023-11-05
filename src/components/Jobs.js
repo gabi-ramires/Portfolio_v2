@@ -62,11 +62,11 @@ const Jobs = () => {
             <div className="linhaTempo">
               <div className="card">
                 <p><strong>Front-end </strong></p>
-                <img src="./ico/js.png" width={'25px'} title="JavaScript"/>
-                <img src="./ico/html.png" width={'25px'} title="HTML5"/>
-                <img src="./ico/css.png" width={'25px'} title="CSS3" />
-                <img src="./ico/bootstrap.png" width={'25px'} title="Bootstrap"/>
-                <img src="./ico/react.png" width={'25px'} title="React"/>
+                <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
+                <img src="./ico/html.png" width={'25px'} title="HTML5" alt="html5"/>
+                <img src="./ico/css.png" width={'25px'} title="CSS3" alt="css3"/>
+                <img src="./ico/bootstrap.png" width={'25px'} title="Bootstrap" alt="bootstrap"/>
+                <img src="./ico/react.png" width={'25px'} title="React" alt="react"/>
                 <hr/>
                 <p>Projetos: <a href="">Clique aqui</a></p>
                 <p>Certificações: <a href="">Clique aqui</a></p>
@@ -74,9 +74,9 @@ const Jobs = () => {
 
               <div className="card">
                 <p><strong>Back-end </strong></p>
-                <img src="./ico/php.png" width={'25px'} title="PHP" />
-                <img src="./ico/phpunit.png" width={'25px'} title="PHPUnit"/>
-                <img src="./ico/mysql.png" width={'25px'} title="MySQL"/>
+                <img src="./ico/php.png" width={'25px'} title="PHP" alt="php"/>
+                <img src="./ico/phpunit.png" width={'25px'} title="PHPUnit" alt="phpunit"/>
+                <img src="./ico/mysql.png" width={'25px'} title="MySQL" alt="mysql"/>
                 <hr/>
                 <p>Projetos: <a href="#">Clique aqui</a></p>
                 <p>Certificações: <a href="#">Clique aqui</a></p>
@@ -84,10 +84,10 @@ const Jobs = () => {
 
               <div className="card">
                 <p><strong>Tecnologias </strong></p>
-                <img src="./ico/docker.png" width={'25px'} title="Docker" />
-                <img src="./ico/git.png" width={'25px'} title="Git"/>
-                <img src="./ico/gitlab.png" width={'25px'} title="GitLab"/>
-                <img src="./ico/wordpress.png" width={'25px'} title="WordPress"/>
+                <img src="./ico/docker.png" width={'25px'} title="Docker" alt="docker"/>
+                <img src="./ico/git.png" width={'25px'} title="Git" alt="git"/>
+                <img src="./ico/gitlab.png" width={'25px'} title="GitLab" alt="gitlab"/>
+                <img src="./ico/wordpress.png" width={'25px'} title="WordPress" alt="wordpress"/>
                 <hr/>
                 <p>Projetos: <a href="#">Clique aqui</a></p>
                 <p>Certificações: <a href="#">Clique aqui</a></p>

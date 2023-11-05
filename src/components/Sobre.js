@@ -20,7 +20,7 @@ const btn = document.getElementById('btn');
     <div>
         <div className="sobre">
             <div className="img">
-            <img src="./img/gabi.jpg"/>
+            <img src="./img/gabi.jpg" alt="foto de uma mulher de oculos"/>
             </div>
 
             <div className="desc">
