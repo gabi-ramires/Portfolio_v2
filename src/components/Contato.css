@@ -1,80 +1,98 @@
-.contato {
-    height: 100vh;;
-}
-
-.containerContato {
-    height: 80vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: block;
-
-}
-
-.containerFilho1 {
-    text-align: center;
-    height: 45%;
-    align-items: center;
-    margin: auto;
-    display: flex;
-
-}
-
-
-.containerFilho1 p {
-  margin: auto;
-  align-items: center;
-  display: flex;
-  text-align: center;
-  font-size:xx-large;
-  color:#1C7ED6;
-
-
-
-justify-content: center;
-
-}
-
-.containerFilho2 {
-    text-align: center;
-    height: 15%;
-
-    display: flex;
-
-}
-
-
-.rede {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    height: 25%;
-}
-
-.rede img {
-    margin: auto;
-    display: flex;
-}
-
-.rede img:hover {
-    cursor: pointer;
-    filter: brightness(1.3);
-}
-
-.footer {
-    position:static;
-    bottom: 0;
-    height: 10vh;
-    background-color: #212529;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid #303132;
-}
-
-.footer p {
-    text-align: center;
-    align-items: center;
-    z-index: 10;
+/************************************** Estilos para telas grandes ********************************************/
+@media (min-width: 1200px) {
+    .contato {
+        height: 200vh;
+    }
+    
+    .containerContato {
+        height: 80vh;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block;
+    }
+    
+    .containerFilho1 {
+        text-align: center;
+        height: 45%;
+        align-items: center;
+        margin: auto;
+        display: flex;
+    }
+    
+    
+    .containerFilho1 p {
+      margin: auto;
+      align-items: center;
+      display: flex;
+      text-align: center;
+      font-size:xx-large;
+      color:#1C7ED6;
+      justify-content: center;
+    
+    }
+    
+    .containerFilho2 {
+        text-align: center;
+        height: 15%;
+        display: flex;
+    }
+    
+    
+    .rede {
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        height: 25%;
+    }
+    
+    .rede img {
+        margin: auto;
+        display: flex;
+    }
+    
+    .rede img:hover {
+        cursor: pointer;
+        filter: brightness(1.3);
+    }
+    
+    .footer {
+        position:static;
+        bottom: 0;
+        height: 10vh;
+        background-color: #212529;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #303132;
+    }
+    
+    .footer p {
+        text-align: center;
+        align-items: center;
+        z-index: 10;
+    }
 }
 
 
+/******************************* Estilos para telas pequenas ******************************************/
+@media (max-width: 767px) {
+
+    .containerFilho1 p {
+        text-align: center;
+      }
+      
+    .containerFilho2{
+        text-align: center;
+    }
+    .footer p {
+        
+        text-align: center;
+        align-items: center;
+        z-index: 10;
+        
+    }
+    .footer  {
+        background-color: #212529;
+        padding: 0.5vh;
+    }
+}

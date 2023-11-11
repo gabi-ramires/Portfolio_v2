@@ -1,4 +1,6 @@
-.jobs {
+/************************************** Estilos para telas grandes ********************************************/
+@media (min-width: 1200px) {
+    .jobs {
     height: 100vh;
     justify-content: center;
     display: flex;
@@ -75,8 +77,108 @@
     border: 1px solid #303132;
     border-radius: 8px;
     margin-left: 8px;
-    margin-right: 8px;
-    
+    margin-right: 8px; 
 }
 
+}
+
+/******************************* Estilos para telas pequenas ******************************************/
+@media (max-width: 767px) {
+    .jobs {
+        height: 200vh;
+        justify-content: center;
+        display: block;
+        flex-direction: column;
+    }
+    
+    
+    .titulo {
+        height: 10vh;
+      text-align: center;
+      margin: auto;
+    }
+    
+    .superior {
+        height: 90vh;
+        display: flex;
+    }
+    
+    .inferior {
+        height: 100vh;
+        display: block;
+    }
+    
+    .linhaTempo {
+        display: block;
+        justify-content: center;
+        height: 100%;
+        padding-right: 10px;
+
+    }
+    
+    .flecha {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinhar elementos verticalmente no centro */
+        justify-content: center;
+        width: max-content;
+
+
+    }
+    
+    .flecha-container {
+        display: flex;
+        justify-content: center; /* Centralizar horizontalmente */
+        
+    }
+    
+    .bola {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #1C7ED6;
+    }
+    
+    .linha {
+        background-color: #1C7ED6;
+        height: 26%; /* Ajuste a altura desejada da linha */
+        width: 5px; /* Ajuste a largura desejada da linha */
+    }
+    
+    .ponta {
+        width: 0;
+        height: 0;
+        border-top: 20px solid #1e90ff; /* Borda superior preenchida */
+        border-bottom: 20px solid transparent; /* Borda inferior transparente */
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    
+
+    .parte {
+        display: block;
+        padding-left: 25px;
+        height: 30%;
+    }
+
+    .parte hr {
+        display: none;
+    }
+    
+    .card {
+        height: min-content;
+        width: 80%;
+        padding: 10px;
+        margin: 20px;
+        background-color: #212529;
+        border: 1px solid #303132;
+        border-radius: 8px;
+        text-align: center;
+ 
+    }
+
+    #cert {
+        display: none;
+    }
+}
 

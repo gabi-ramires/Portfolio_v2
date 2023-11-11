@@ -17,24 +17,20 @@ const btn = document.getElementById('btn');
   
     }
   return (
-    <div>
         <div className="sobre">
             <div className="img">
-            <img src="./img/gabi.jpg" alt="foto de uma mulher de oculos"/>
+                <img src="./img/gabi.jpg" alt="foto de uma mulher de oculos"/>
             </div>
 
             <div className="desc">
-            <h2>Gabriela Ramires</h2>
-
-            <p>👩‍💻 Desenvolvedora Fullstack PHP e JavaScript</p>
-            <p>📚 Cursando Ciência da Computação</p>
-            <p>🚀 Apaixonada por programação</p>
+                <h2>Gabriela Ramires</h2>
+                <p>👩‍💻 Desenvolvedora Fullstack PHP e JavaScript</p>
+                <p>📚 Cursando Ciência da Computação</p>
+                <p>🚀 Apaixonada por programação</p>
             </div>
             <button id="btn" onClick={({aux}) => rolar()}>Continuar</button>
+      
         </div>
-    
-    </div>
-    
   )
 }
 

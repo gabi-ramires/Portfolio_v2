@@ -1,75 +1,51 @@
-.sobre {
+/************************************** Estilos para telas grandes ********************************************/
+@media (min-width: 1200px) {
+  .sobre {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-
 .sobre img {
-    width: 300px;
-    border-radius: 50%;
-    transform-origin: center;
-    animation: shadowColorChange 4s linear infinite, fadeIn 2s linear forwards;
-    
+  width: 300px;
+  border-radius: 50%;
+  transform-origin: center;
+  animation: shadowColorChange 4s linear infinite, fadeIn 2s linear forwards;
 }
-  
 
-  
-@keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-}
-  
-  
 .img {
-    padding: 50px;
-
-
+  padding: 50px;
 }
 
-@keyframes shadowColorChange {
-  0% {
-    box-shadow: 0 0 20px #0a34de89;
-  }
-  50% {
-    box-shadow: 0 0 20px rgba(237, 237, 241, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 20px #0a34de89;
-  }
-
-}  
 .desc {
-    padding: 50px;
-    text-align: start;
-    flex-direction: column;
-    animation: fadeIn 2s linear forwards;
+  padding: 50px;
+  text-align: start;
+  flex-direction: column;
+  animation: fadeIn 2s linear forwards;
 }
   
 .desc h2 {
-    color: #FFF;
+  color: #FFF;
 }
 
 button {
-    position: fixed;
-    bottom: 5vh;
-    background-color: transparent;
-    border: 1px solid #1C7ED6;
-    color: #1C7ED6;
-    width: 20vh;
-    animation: slideInFromBottom 2s ease forwards;
+  position: fixed;
+  bottom: 5vh;
+  background-color: transparent;
+  border: 1px solid #1C7ED6;
+  color: #1C7ED6;
+  width: 20vh;
+  animation: slideInFromBottom 2s ease forwards;
 }
 
 button:hover{
-    cursor: pointer;
-    box-shadow: 0 0 5px #1C7ED6;
+  cursor: pointer;
+  box-shadow: 0 0 5px #1C7ED6;
+}
 }
 
+/******************************* Animações ******************************************/
 @keyframes slideInFromBottom {
     0% {
       transform: translateY(100%);
@@ -89,5 +65,89 @@ button:hover{
   to {
     transform: scale(1);
   }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes shadowColorChange {
+  0% {
+    box-shadow: 0 0 20px #0a34de89;
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(237, 237, 241, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px #0a34de89;
+  }
+
+}
+
+
+/******************************* Estilos para telas pequenas ******************************************/
+@media (max-width: 767px) {
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 auto;
+  margin:0 auto;
+
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.sobre img {
+  width: 200px;
+  border-radius: 50%;
+  transform-origin: center;
+  animation: shadowColorChange 4s linear infinite, fadeIn 2s linear forwards;
+    
+}
+  
+button {
+  position: fixed;
+
+  bottom: 5vh;
+  background-color: transparent;
+  border: 1px solid #1C7ED6;
+  color: #1C7ED6;
+  width: 20vh;
+  animation: slideInFromBottom 2s ease forwards;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px #1C7ED6;
+}
+
+.desc {
+  text-align: start;
+  flex-direction: column;
+  animation: fadeIn 2s linear forwards;
+  height: 50vh;
+  align-items: center;
+  display:flex;
+}
+  
+.desc h2 {
+  color: #FFF;
+}
+
+
 }
 

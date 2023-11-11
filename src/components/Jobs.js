@@ -3,29 +3,29 @@ import './Jobs.css';
 
 const Jobs = () => {
   return (
-    <div>
         <div className="jobs">
           
-          {/* Superior */}
-          <div className="superior">
-            <div className="titulo">
+           <div className="titulo">
               <h2>⛏️ Experiências</h2>
             </div>
+          <div className="superior">
+            {/* Superior */}
+         
           
             <div className="flecha">
-            <div className="flecha-container"></div>
-            <div className="bola"></div>
-            <div className="linha"></div>
+              <div className="flecha-container"></div>
+              <div className="bola"></div>
+              <div className="linha"></div>
 
-            <div className="flecha-container"></div>
-            <div className="bola"></div>
-            <div className="linha"></div>
+              <div className="flecha-container"></div>
+              <div className="bola"></div>
+              <div className="linha"></div>
 
-            <div className="flecha-container"></div>
-            <div className="bola"></div>
-            <div className="linha"></div>
-            <div className="ponta"></div>
-          </div>
+              <div className="flecha-container"></div>
+              <div className="bola"></div>
+              <div className="linha"></div>
+              <div className="ponta"></div>
+            </div>
           
             <div className="linhaTempo">
               
@@ -69,7 +69,7 @@ const Jobs = () => {
                 <img src="./ico/react.png" width={'25px'} title="React" alt="react"/>
                 <hr/>
                 <p>Projetos: <a href="">Clique aqui</a></p>
-                <p>Certificações: <a href="">Clique aqui</a></p>
+                <p id='cert'>Certificações: <a href="">Clique aqui</a></p>
               </div>
 
               <div className="card">
@@ -79,7 +79,7 @@ const Jobs = () => {
                 <img src="./ico/mysql.png" width={'25px'} title="MySQL" alt="mysql"/>
                 <hr/>
                 <p>Projetos: <a href="#">Clique aqui</a></p>
-                <p>Certificações: <a href="#">Clique aqui</a></p>
+                <p id='cert'>Certificações: <a href="#">Clique aqui</a></p>
               </div>
 
               <div className="card">
@@ -90,15 +90,12 @@ const Jobs = () => {
                 <img src="./ico/wordpress.png" width={'25px'} title="WordPress" alt="wordpress"/>
                 <hr/>
                 <p>Projetos: <a href="#">Clique aqui</a></p>
-                <p>Certificações: <a href="#">Clique aqui</a></p>
+                <p id='cert'>Certificações: <a href="#">Clique aqui</a></p>
               </div>
 
             </div>
           </div>
         </div>
-
-       
-    </div>
   )
 }
 
