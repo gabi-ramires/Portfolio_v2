@@ -121,7 +121,7 @@ button:hover{
   
 button {
   position: fixed;
-
+  display: none;;
   bottom: 5vh;
   background-color: transparent;
   border: 1px solid #1C7ED6;

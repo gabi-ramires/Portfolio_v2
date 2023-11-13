@@ -1,7 +1,7 @@
 /************************************** Estilos para telas grandes ********************************************/
 @media (min-width: 1200px) {
     .contato {
-        height: 200vh;
+        height: 100vh;
     }
     
     .containerContato {
@@ -76,7 +76,10 @@
 
 /******************************* Estilos para telas pequenas ******************************************/
 @media (max-width: 767px) {
-
+    .contato {
+        height: 100vh;
+    }
+    
     .containerFilho1 p {
         text-align: center;
       }
