@@ -28,7 +28,8 @@ const Depoimentos = () => {
         </div>
             
         <div className="depoimentos">
-          {depoimentos.map((depoimento => (
+          {depoimentos ? (
+            (depoimentos.map((depoimento => (
 
             <div className="cardDepo">
 
@@ -37,7 +38,6 @@ const Depoimentos = () => {
                 <p key={depoimento}><strong>{depoimento.author_name}</strong></p>
               </div>
 
-              
               <div className="nota">
                {notas.map((nota=> (
                   <img
@@ -48,15 +48,13 @@ const Depoimentos = () => {
                 )))}                
               </div>
               
-              
-              
               <div className="body">
                 <span>{depoimento.text}</span>
               </div>
             
             </div>
 
-               )))}
+               ))))): (<div><p>Seja o primeiro a avaliar!</p><a href="https://g.page/r/CabYxcLOdtOgEAI/review" target='_blank'>Clique aqui</a></div>)}
             
         </div>
     </div>
