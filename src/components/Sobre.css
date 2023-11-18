@@ -1,5 +1,5 @@
 /************************************** Estilos para telas grandes ********************************************/
-@media (min-width: 1200px) {
+@media (min-width: 767px) {
   .sobre {
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ button:hover{
 
 
 /******************************* Estilos para telas pequenas ******************************************/
-@media (max-width: 767px) {
+@media (max-width: 767px)  {
 
 .sobre {
   display: flex;

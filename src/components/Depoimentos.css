@@ -1,0 +1,99 @@
+/************************************** Estilos para telas grandes ********************************************/
+@media (min-width: 767px) {
+
+.depoimentos {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDepo {
+    height: 80%;
+    width: 15%;
+    background-color: #212529;
+    border: 1px solid #303132;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px; 
+
+}
+
+img {
+    padding-right: 5px;
+}
+
+.head {
+ height: 8vh;
+ display: flex;
+ padding: 5px;
+ color: white;
+ align-items: center;
+}
+
+.nota {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body {
+    height: 27vh;
+    padding: 10px;
+
+}
+
+}
+
+/******************************* Estilos para telas pequenas ******************************************/
+@media (max-width: 767px) {
+
+
+    .depoimentos {
+        
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .cardDepo {
+        height: 100%;
+        width: 50%;
+        background-color: #212529;
+        border: 1px solid #303132;
+        border-radius: 8px;
+        margin-left: 8px;
+        margin-right: 8px; 
+    
+    }
+    
+    img {
+        padding-right: 5px;
+    }
+    
+    .head {
+     height: 8vh;
+     display: flex;
+     padding: 5px;
+     color: white;
+     align-items: center;
+    }
+    
+    .nota {
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .body {
+        height: 27vh;
+        padding: 10px;
+    
+    }
+
+}
