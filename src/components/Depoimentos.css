@@ -17,11 +17,12 @@
     border-radius: 8px;
     margin-left: 8px;
     margin-right: 8px; 
+    padding: 10px;
 
 }
 
-img {
-    padding-right: 5px;
+.depoimentos img {
+    padding-right: 8px;
 }
 
 .head {
@@ -34,16 +35,27 @@ img {
 
 .nota {
     height: 5vh;
-    display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
 .body {
-    height: 27vh;
-    padding: 10px;
+    height: 23vh;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    text-align: justify; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
+.data {
+    height: 4vh;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }
 
 }
@@ -54,31 +66,32 @@ img {
 
     .depoimentos {
         
-        height: 40vh;
+        height: 50vh;
         display: flex;
         justify-content: center;
 
     }
     
     .cardDepo {
-        height: 100%;
+        height: 40vh;
         width: 50%;
         background-color: #212529;
         border: 1px solid #303132;
         border-radius: 8px;
         margin-left: 8px;
         margin-right: 8px; 
+        padding: 10px;
     
     }
     
-    img {
+    .depoimentos img {
         padding-right: 5px;
     }
     
     .head {
      height: 8vh;
      display: flex;
-     padding: 5px;
+ 
      color: white;
      align-items: center;
     }
@@ -92,9 +105,21 @@ img {
     }
     
     .body {
-        height: 27vh;
-        padding: 10px;
-    
+        height: 23vh;
+        overflow-y: scroll; 
+        overflow-x: hidden;
+        text-align: justify; 
+        padding-left: 5px;
+        padding-right: 5px;
     }
+    
+    .data {
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+    }
+    
 
 }

@@ -5,7 +5,7 @@ import './Depoimentos.css';
 const url = "https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJET2xk12dGZURptjFws5206A&fields=reviews&key=AIzaSyBpLFsCQoIjG9AFULiHY5107lAW8xF_6qo&language=pt-BR";
 
 const Depoimentos = () => {
-  const [depoimentos, setDepoimentos] = useState([]);
+  const [depoimentos, setDepoimentos] = useState();
 
   const notas = [1,2,3,4,5];
 
@@ -15,12 +15,21 @@ const Depoimentos = () => {
     .then((response) => response.json())
     .then((data) => 
     
-    setDepoimentos(data.result.reviews)
+    setDepoimentos(data.reviews)
+  
+
   
     )
-     console.log(depoimentos)
+     
   }, []);
 
+  function converterTimestampParaData(timestamp) {
+    const data = new Date(timestamp * 1000); // Multiplicado por 1000 para converter de segundos para milissegundos
+    const dia = data.getDate();
+    const mes = data.getMonth() + 1; // Lembre-se que os meses começam do zero, então adicionamos 1
+    const ano = data.getFullYear();
+    return `${dia}/${mes}/${ano}`;
+  }
   return (
     <div>
         <div className="titulo">
@@ -29,19 +38,22 @@ const Depoimentos = () => {
             
         <div className="depoimentos">
           {depoimentos ? (
-            (depoimentos.map((depoimento => (
+            (depoimentos.map(((depoimento, i )=> (
 
             <div className="cardDepo">
-
               <div className="head">
-                <img key={depoimento}src={depoimento.profile_photo_url} width={40} height={40}/>
-                <p key={depoimento}><strong>{depoimento.author_name}</strong></p>
+                <img
+                    key={i}
+                    src={depoimento.profile_photo_url}
+                    width={40}
+                    height={40}/>
+                <p key={i}><strong>{depoimento.author_name}</strong></p>
               </div>
 
               <div className="nota">
-               {notas.map((nota=> (
+               {notas.map(((nota, index)=> (
                   <img
-                  key={nota}
+                  key={index}
                   src={`/ico/estrela${nota <= depoimento.rating ? '' : 'Branca'}.png`} 
                   width={25} 
                   height={25}/>
@@ -49,7 +61,13 @@ const Depoimentos = () => {
               </div>
               
               <div className="body">
-                <span>{depoimento.text}</span>
+                <span>Testando um comentario de algumas linhas para ver quantos caracteres suporta e o que acontece se ultrapasasar. Legal que não passou mas vou forçar agora para ver como ficar com barra de rolagem e as margens.</span>
+                
+              </div>
+
+              <div className="data">
+                
+              <span>{converterTimestampParaData(depoimento.time)}</span>
               </div>
             
             </div>

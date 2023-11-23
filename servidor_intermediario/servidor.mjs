@@ -20,7 +20,7 @@ app.get('', async (req, res) => {
     const data = await response.json();
     
     // Enviar a resposta com os reviews
-   res.json(data.result.reviews);
+   res.json(data.result);
     
   } catch (error) {
     console.error('Erro na solicitação:', error);
