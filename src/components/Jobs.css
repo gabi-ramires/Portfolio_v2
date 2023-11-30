@@ -1,10 +1,12 @@
 /************************************** Estilos para telas grandes ********************************************/
 @media (min-width: 767px) {
-    .jobs {
-    height: 100vh;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+
+
+.jobs {
+height: 100vh;
+justify-content: center;
+display: flex;
+flex-direction: column;
 }
 
 
@@ -78,6 +80,19 @@
     border-radius: 8px;
     margin-left: 8px;
     margin-right: 8px; 
+}
+
+select {
+    background-color: transparent;
+    color: #ADB5BD;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-weight: 300; 
+    outline: none;
+    border: 0px 0px 0px 1px solid #303132;
+}
+
+.option{
+    background-color: #212529;
 }
 
 }
@@ -177,8 +192,19 @@
  
     }
 
-    #cert {
-        display: none;
+    select {
+        background-color: transparent;
+        color: #ADB5BD;
+        font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+        font-weight: 300; 
+        outline: none;
+        border: 0px 0px 0px 1px solid #303132;
     }
+    
+    .option{
+        background-color: #212529;
+    }
+
+    
 }
 

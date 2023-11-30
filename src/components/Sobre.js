@@ -3,6 +3,7 @@ import './Sobre.css';
 
 const Sobre = () => {
 const [aux, setAux] = useState(0);
+const [isMouseOver, setIsMouseOver] = useState(false);
 const btn = document.getElementById('btn');
 
     const rolar = () => {
@@ -28,7 +29,49 @@ const btn = document.getElementById('btn');
                 <p>📚 Cursando Ciência da Computação</p>
                 <p>🚀 Apaixonada por programação</p>
             </div>
-            <button id="btn" onClick={({aux}) => rolar()}>Continuar</button>
+            
+            <svg
+        id="btn"
+        onMouseOver={() => setIsMouseOver(true)}
+        onMouseOut={() => setIsMouseOver(false)}
+        onClick={rolar}
+        xmlns="http://www.w3.org/2000/svg"
+        height="40px"
+        version="1.1"
+        viewBox="0 0 128 128"
+        width="40px"
+        xmlSpace="preserve"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g>
+          <line
+            style={{
+              fill: 'none',
+              stroke: isMouseOver ? 'white' : '#1C7ED6',
+              strokeWidth: 12,
+              strokeLinecap: 'square',
+              strokeMiterlimit: 10
+            }}
+            x1="111"
+            x2="64"
+            y1="40.5"
+            y2="87.499"
+          />
+          <line
+            style={{
+              fill: 'none',
+              stroke: isMouseOver ? 'white' : '#1C7ED6',
+              strokeWidth: 12,
+              strokeLinecap: 'square',
+              strokeMiterlimit: 10
+            }}
+            x1="64"
+            x2="17"
+            y1="87.499"
+            y2="40.5"
+          />
+        </g>
+      </svg>
       
         </div>
   )

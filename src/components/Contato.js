@@ -38,7 +38,9 @@ const Contato = () => {
 
                 </div>
                 <div className="footer">
-                  <p>© 2023 Gabriela Ramires. All rights reserved.</p>
+                  <p>
+                      <a href="https://king.host/?utm_source=parceiros&utm_medium=site&utm_term=&utm_content=selo-hospedado-king&utm_campaign=content-marketing" target='_blank'>Orgulhosamente hospedado por KingHost </a>
+                  </p>
                 </div>
         </div>
 

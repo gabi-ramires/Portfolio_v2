@@ -1,7 +1,40 @@
-import React from 'react'
+import { useState } from 'react';
+import Modal from 'react-modal';
+import './Modal.css';
+
 import './Jobs.css';
 
 const Jobs = () => {
+
+  const [selectedOption, setSelectedOption] = useState("Selecione ...");
+  const [modal, setModal] = useState(false);
+  
+console.log(selectedOption)
+
+
+  const abrirCertificado = (curso) => {
+    setSelectedOption(curso)
+
+    setModal(true);
+  
+  }
+
+  const overlayStyle = {
+
+    backgroundColor: 'rgba(0, 0, 0, 0.8)', // cor preta semi-transparente
+    display: selectedOption ? 'flex' : 'none', // oculta ou exibe a sobreposição com base na seleção
+    
+  };
+
+
+  const fecharCertificado = () => {
+
+    setModal(false);
+
+    document.body.style.backgroundColor = "#181A1C"; 
+
+  }
+
   return (
         <div className="jobs">
           
@@ -68,8 +101,19 @@ const Jobs = () => {
                 <img src="./ico/bootstrap.png" width={'25px'} title="Bootstrap" alt="bootstrap"/>
                 <img src="./ico/react.png" width={'25px'} title="React" alt="react"/>
                 <hr/>
-                <p>Projetos: <a href="">Clique aqui</a></p>
-                <p id='cert'>Certificações: <a href="">Clique aqui</a></p>
+
+                <p id='cert'>Certificações: <select
+                                            id="certificados"
+                                            name="certificados"
+                                            value={selectedOption}
+                                            onChange={(e) => abrirCertificado(e.target.value)}
+                                          >
+                                            <option className='option' hidden>Selecione...</option>
+                                            <option className='option' value="JavaScript">JavaScript</option>
+                                            <option className='option' value="HTML5">HTML5</option>
+                                            <option className='option' value="CSS">CSS</option>
+                                            <option className='option' value="Bootstrap">Bootstrap</option>
+                                          </select></p>
               </div>
 
               <div className="card">
@@ -78,8 +122,17 @@ const Jobs = () => {
                 <img src="./ico/phpunit.png" width={'25px'} title="PHPUnit" alt="phpunit"/>
                 <img src="./ico/mysql.png" width={'25px'} title="MySQL" alt="mysql"/>
                 <hr/>
-                <p>Projetos: <a href="#">Clique aqui</a></p>
-                <p id='cert'>Certificações: <a href="#">Clique aqui</a></p>
+                <p id='cert'>Certificações: <select
+                                            id="certificados"
+                                            name="certificados"
+                                            value={selectedOption}
+                                            onChange={(e) => abrirCertificado(e.target.value)}
+                                          >
+                                            <option  hidden>Selecione...</option>
+                                            <option className='option' value="PHP">PHP</option>
+                                            <option className='option' value="PHPUnit">PHPUnit</option>
+                                            <option className='option' disabled value="MySQL">MySQL</option>
+                                          </select></p>
               </div>
 
               <div className="card">
@@ -89,12 +142,36 @@ const Jobs = () => {
                 <img src="./ico/gitlab.png" width={'25px'} title="GitLab" alt="gitlab"/>
                 <img src="./ico/wordpress.png" width={'25px'} title="WordPress" alt="wordpress"/>
                 <hr/>
-                <p>Projetos: <a href="#">Clique aqui</a></p>
-                <p id='cert'>Certificações: <a href="#">Clique aqui</a></p>
+                <p id='cert'>Certificações: <select
+                                            id="certificados"
+                                            name="certificados"
+                                            value={selectedOption}
+                                            onChange={(e) => abrirCertificado(e.target.value)}
+                                          >
+                                            <option  hidden>Selecione...</option>
+                                            <option className='option' disabled value="Docker">Docker</option>
+                                            <option className='option' disabled value="Git">Git e GitHub</option>
+                                            <option className='option' disabled value="GitLab">GitLab</option>
+                                            <option className='option' disabled value="WordPress">Wordpress</option>
+                                          </select></p>
               </div>
 
             </div>
           </div>
+
+          {/* Seção da imagem */}
+    {modal && (
+        <div style={overlayStyle} className="imagem-container">
+          <img
+            src={`./certificados/${selectedOption}.jpg`}
+           
+            title={selectedOption}
+            alt={selectedOption}
+          />
+            <button onClick={() => fecharCertificado()}>Fechar</button>
+          
+        </div>
+      )}
         </div>
   )
 }

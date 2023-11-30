@@ -1,0 +1,83 @@
+/************************************** Estilos para telas grandes ********************************************/
+@media (min-width: 767px) {
+
+    .imagem-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-container img {
+    border: 1px solid rgb(16, 12, 12);
+    box-shadow: 0 0 20px #0a34de89;
+    width: 100vh;
+
+}
+
+.imagem-container button {
+    background-color: #1C7ED6;
+    width: 20vh;
+    color: white;
+    border-radius: 8px;
+    height: 5vh;
+}
+
+.imagem-container button:hover{
+cursor: pointer;
+filter: brightness();
+}
+
+
+
+.option {
+    color: #ADB5BD;
+}
+
+}
+
+/******************************* Estilos para telas pequenas ******************************************/
+@media (max-width: 767px) {
+
+    .imagem-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagem-container img {
+        border: 1px solid rgb(16, 12, 12);
+        box-shadow: 0 0 20px #0a34de89;
+        width: 100%;
+    
+    }
+    
+    .imagem-container button {
+        width: 20vh;
+        background-color: #1C7ED6;
+        color: white;
+        border-radius: 8px;
+        height: 5vh;
+    }
+    
+    .option {
+        color: #ADB5BD;
+    }
+    
+    
+    
+
+}

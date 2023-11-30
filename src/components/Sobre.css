@@ -20,7 +20,7 @@
 
 .desc {
   padding: 50px;
-  text-align: start;
+  text-align: start !important;
   flex-direction: column;
   animation: fadeIn 2s linear forwards;
 }
@@ -29,19 +29,19 @@
   color: #FFF;
 }
 
-button {
+#btn {
   position: fixed;
   bottom: 5vh;
   background-color: transparent;
-  border: 1px solid #1C7ED6;
-  color: #1C7ED6;
+  outline: none;
+  color: #5b8cb8;
   width: 20vh;
   animation: slideInFromBottom 2s ease forwards;
 }
 
-button:hover{
+#btn:hover{
   cursor: pointer;
-  box-shadow: 0 0 5px #1C7ED6;
+  filter: brightness();
 }
 }
 
@@ -97,6 +97,7 @@ button:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+
   justify-content: center;
   height: 100vh;
   padding: 0 auto;
@@ -119,22 +120,20 @@ button:hover{
     
 }
   
-button {
+#btn {
   position: fixed;
-  display: none;;
   bottom: 5vh;
   background-color: transparent;
-  border: 1px solid #1C7ED6;
-  color: #1C7ED6;
+  outline: none;
+  color: #5b8cb8;
   width: 20vh;
   animation: slideInFromBottom 2s ease forwards;
 }
 
-button:hover{
+#btn:hover{
   cursor: pointer;
-  box-shadow: 0 0 5px #1C7ED6;
+  filter: brightness();
 }
-
 .desc {
   text-align: start;
   flex-direction: column;

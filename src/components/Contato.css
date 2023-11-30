@@ -16,6 +16,10 @@
         display: block;
     }
 
+    .containerFilho1 p {
+        text-align: center;
+      }
+
     
     .containerFilho2 {
         text-align: center;

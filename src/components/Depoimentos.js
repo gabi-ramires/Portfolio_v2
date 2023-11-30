@@ -15,10 +15,8 @@ const Depoimentos = () => {
     .then((response) => response.json())
     .then((data) => 
     
-    setDepoimentos(data.reviews)
   
-
-  
+  setDepoimentos(data.reviews)
     )
      
   }, []);
@@ -34,9 +32,12 @@ const Depoimentos = () => {
     <div>
         <div className="titulo">
             <h2>📜 Depoimentos</h2>
-        </div>
             
+        </div>
+       
+        <p>Avalie você também por <a href="https://g.page/r/CabYxcLOdtOgEAI/review" target='_blank'>aqui</a>. 😸</p>
         <div className="depoimentos">
+          
           {depoimentos ? (
             (depoimentos.map(((depoimento, i )=> (
 
@@ -61,7 +62,7 @@ const Depoimentos = () => {
               </div>
               
               <div className="body">
-                <span>Testando um comentario de algumas linhas para ver quantos caracteres suporta e o que acontece se ultrapasasar. Legal que não passou mas vou forçar agora para ver como ficar com barra de rolagem e as margens.</span>
+                <span>{depoimento.text}</span>
                 
               </div>
 
