@@ -2,6 +2,8 @@
 
 Bem-vindo ao meu projeto de portfólio desenvolvido em React. Este é o lugar onde compartilho minhas experiências profissionais, projetos e informações de contato. Sinta-se à vontade para explorar e conhecer um pouco mais sobre mim.
 
+Veja o Portfólio: [gabrielaramires.com.br](https://gabrielaramires.com.br/)
+
 ### Como Iniciar o Projeto 🚀
 
 Para executar este projeto em sua máquina local, siga as etapas abaixo:
@@ -23,7 +25,11 @@ Para executar este projeto em sua máquina local, siga as etapas abaixo:
    ```bash
    npm install
     ```
-5. Inicie o servidor de desenvolvimento:
+5. Vá no diretório servidor_intermediario e inicie o servidor:
+   ```bash
+   node servidor.mjs
+    ```
+6. Inicie o servidor de desenvolvimento:
    ```bash
    npm start
     ```
