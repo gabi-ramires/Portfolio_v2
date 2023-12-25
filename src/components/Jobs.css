@@ -82,6 +82,10 @@ flex-direction: column;
     margin-right: 8px; 
 }
 
+.card:hover {
+    box-shadow: 0 0 5px #1C7ED6;
+}
+
 select {
     background-color: transparent;
     color: #ADB5BD;

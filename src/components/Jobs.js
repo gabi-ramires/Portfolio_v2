@@ -113,6 +113,7 @@ console.log(selectedOption)
                                             <option className='option' value="HTML5">HTML5</option>
                                             <option className='option' value="CSS">CSS</option>
                                             <option className='option' value="Bootstrap">Bootstrap</option>
+                                            <option className='option' disabled value="React">React</option>
                                           </select></p>
               </div>
 
@@ -131,15 +132,15 @@ console.log(selectedOption)
                                             <option  hidden>Selecione...</option>
                                             <option className='option' value="PHP">PHP</option>
                                             <option className='option' value="PHPUnit">PHPUnit</option>
-                                            <option className='option' disabled value="MySQL">MySQL</option>
+                                            <option className='option' value="MySQL">MySQL</option>
                                           </select></p>
               </div>
 
               <div className="card">
                 <p><strong>Tecnologias </strong></p>
+                <img src="./ico/linux.png" width={'25px'} title="Linux" alt="linux"/>
                 <img src="./ico/docker.png" width={'25px'} title="Docker" alt="docker"/>
                 <img src="./ico/git.png" width={'25px'} title="Git" alt="git"/>
-                <img src="./ico/gitlab.png" width={'25px'} title="GitLab" alt="gitlab"/>
                 <img src="./ico/wordpress.png" width={'25px'} title="WordPress" alt="wordpress"/>
                 <hr/>
                 <p id='cert'>Certificações: <select
@@ -149,9 +150,9 @@ console.log(selectedOption)
                                             onChange={(e) => abrirCertificado(e.target.value)}
                                           >
                                             <option  hidden>Selecione...</option>
+                                            <option className='option' value="Linux">Linux</option>
                                             <option className='option' disabled value="Docker">Docker</option>
                                             <option className='option' disabled value="Git">Git e GitHub</option>
-                                            <option className='option' disabled value="GitLab">GitLab</option>
                                             <option className='option' disabled value="WordPress">Wordpress</option>
                                           </select></p>
               </div>

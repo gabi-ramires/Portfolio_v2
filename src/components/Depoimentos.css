@@ -28,7 +28,6 @@
 
 .cardDepo:hover {
     box-shadow: 0 0 5px #1C7ED6;
-
 }
 
 .depoimentos img {
@@ -52,7 +51,7 @@
 
 .body {
     height: 23vh;
-    overflow-y: hidden; 
+    font-size: small;
     overflow-x: hidden;
     text-align: justify; 
     padding-left: 5px;
@@ -116,7 +115,6 @@
     
     .body {
         height: 23vh;
-
         overflow-x: hidden;
         text-align: justify; 
         padding-left: 5px;

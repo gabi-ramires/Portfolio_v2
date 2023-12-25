@@ -23,7 +23,7 @@ const Contato = () => {
                         <p> contato@gabrielaramires.com.br</p>
                       </div>
                       <div className="rede">
-                        <a href="https://api.whatsapp.com/send?phone=5551980187026&text=Ol%C3%A1!%20Olhei%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA!" target="_blank"><img src="./ico/whats.png" width={'48px'} title="JavaScript" alt="icone do whatsapp"/></a>
+                        <a href="/whats.php" target="_blank"><img src="./ico/whats.png" width={'48px'} title="JavaScript" alt="icone do whatsapp"/></a>
                         <p> (51) 99540-0581</p>
                       </div>
                       <div className="rede">

@@ -1,8 +1,8 @@
 import {useState, useEffect} from 'react';
 import './Depoimentos.css';
 
-
-const url = "https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJET2xk12dGZURptjFws5206A&fields=reviews&key=AIzaSyBpLFsCQoIjG9AFULiHY5107lAW8xF_6qo&language=pt-BR";
+//const url = "../manifest.json";
+const url = "https://gabrielaramires.com.br/apiGoogle.php";
 
 const Depoimentos = () => {
   const [depoimentos, setDepoimentos] = useState();
@@ -11,12 +11,12 @@ const Depoimentos = () => {
 
   useEffect(() => {
     // Faça a solicitação para o servidor intermediário
-    fetch('http://localhost:3001/')
+    fetch(url)
     .then((response) => response.json())
     .then((data) => 
     
   
-  setDepoimentos(data.reviews)
+  setDepoimentos(data.result.reviews)
     )
      
   }, []);
@@ -47,7 +47,8 @@ const Depoimentos = () => {
                     key={i}
                     src={depoimento.profile_photo_url}
                     width={40}
-                    height={40}/>
+                    height={40}
+                    alt="foto de perfil da conta google"/>
                 <p key={i}><strong>{depoimento.author_name}</strong></p>
               </div>
 
@@ -57,7 +58,8 @@ const Depoimentos = () => {
                   key={index}
                   src={`/ico/estrela${nota <= depoimento.rating ? '' : 'Branca'}.png`} 
                   width={25} 
-                  height={25}/>
+                  height={25}
+                  alt="estrela de avaliação do google"/>
                 )))}                
               </div>
               
