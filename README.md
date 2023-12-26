@@ -25,11 +25,8 @@ Para executar este projeto em sua máquina local, siga as etapas abaixo:
    ```bash
    npm install
     ```
-5. Vá no diretório servidor_intermediario e inicie o servidor:
-   ```bash
-   node servidor.mjs
-    ```
-6. Inicie o servidor de desenvolvimento:
+
+5. Inicie o servidor de desenvolvimento:
    ```bash
    npm start
     ```

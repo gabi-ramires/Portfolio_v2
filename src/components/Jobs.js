@@ -152,7 +152,7 @@ console.log(selectedOption)
                                             <option  hidden>Selecione...</option>
                                             <option className='option' value="Linux">Linux</option>
                                             <option className='option' disabled value="Docker">Docker</option>
-                                            <option className='option' disabled value="Git">Git e GitHub</option>
+                                            <option className='option' value="Git">Git e GitHub</option>
                                             <option className='option' disabled value="WordPress">Wordpress</option>
                                           </select></p>
               </div>
