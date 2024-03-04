@@ -25,7 +25,7 @@ const btn = document.getElementById('btn');
 
             <div className="desc">
                 <h2>Gabriela Ramires</h2>
-                <p>👩‍💻 Desenvolvedora Fullstack PHP e JavaScript</p>
+                <p>👩‍💻 Desenvolvedora PHP e JavaScript</p>
                 <p>📚 Cursando Ciência da Computação</p>
                 <p>🚀 Apaixonada por programação</p>
             </div>

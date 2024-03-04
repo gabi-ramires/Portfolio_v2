@@ -61,13 +61,6 @@ console.log(selectedOption)
             </div>
           
             <div className="linhaTempo">
-              
-              <div className="parte">
-                <h3>2021</h3>
-                  <p><strong>Assist. de Engenharia</strong></p>
-                  <hr/>
-                  <p>Me formei em Engenharia Civil e trabalhava na área há quase 3 anos.</p>
-              </div>
 
               <div className="parte">
                 <h3>2022</h3>
@@ -81,6 +74,13 @@ console.log(selectedOption)
                 <p><strong>Assist. de Desenvolvimento</strong></p>
                 <hr/>
                   <p>Desenvolvimento e manutenção do sistema de hospedagem de sites/emails da  <a href="https://king.host" target="_blank">KingHost</a>.</p>
+              </div>
+
+              <div className="parte">
+                <h3>2024</h3>
+                  <p><strong>Analista de Desenvolvimento I</strong></p>
+                  <hr/>
+                  <p>Evoluindo nos conhecimentos técnicos e adquirindo mais prática na <a href="https://king.host" target="_blank">KingHost</a>.</p>
               </div>
 
             </div>

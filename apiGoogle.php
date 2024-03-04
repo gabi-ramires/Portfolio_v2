@@ -6,7 +6,7 @@ $apiUrl = 'https://maps.googleapis.com/maps/api/place/details/json';
 // Parâmetros da solicitação
 $placeId = 'ChIJET2xk12dGZURptjFws5206A';
 $fields = 'reviews';
-$key = 'AIzaSyBpLFsCQoIjG9AFULiHY5107lAW8xF_6qo';
+$key = 'AIzaSyBsZu-kKaEg9jwvODNuSw99HHQP-Dc3-_U';
 $language = 'pt-BR';
  
 // Montar a URL completa com parâmetros
