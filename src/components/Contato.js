@@ -24,7 +24,7 @@ const Contato = () => {
                       </div>
                       <div className="rede">
                         <a href="/whats.php" target="_blank"><img src="./ico/whats.png" width={'48px'} title="JavaScript" alt="icone do whatsapp"/></a>
-                        <p> (51) 998018-7026</p>
+                        <p> (51) 98018-7026</p>
                       </div>
                       <div className="rede">
                         <a href="https://github.com/gabi-ramires" target="_blank"><img src="./ico/github.png" width={'48px'} title="JavaScript" alt="icone do github"/></a>

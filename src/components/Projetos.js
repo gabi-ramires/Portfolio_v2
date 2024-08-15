@@ -28,12 +28,13 @@ const Projetos = () => {
                     <div className="cardPro">
                         <p><strong>Viver Coometal</strong></p>
                         <hr/>
-                        <p>Site: <a href="https://uzumaki.free.nf/" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://vivercoometal.free.nf/" target="_blank">Clique aqui</a></p>
                         <img src="./img/vivercoometal.png" height= {'220px'}/>
                         <p>Projeto desenvolvido para pessoas autorizadas criarem e gerenciarem notícias do condomínio Viver Coometal.</p>
                         <img src="./ico/vue.png" width={'25px'} title="JavaScript" alt="vue.js"/>
                         <img src="./ico/bootstrap.png" width={'25px'} title="Bootstrap" alt="bootstrap"/>
                         <img src="./ico/php.png" width={'25px'} title="PHP" alt="php"/>
+                        <img src="./ico/mysql.png" width={'25px'} title="MySQL" alt="mysql"/>
                     </div>
 
                     {/* Marvel */}
