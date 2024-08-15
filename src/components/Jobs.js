@@ -99,7 +99,7 @@ console.log(selectedOption)
                 <img src="./ico/html.png" width={'25px'} title="HTML5" alt="html5"/>
                 <img src="./ico/css.png" width={'25px'} title="CSS3" alt="css3"/>
                 <img src="./ico/bootstrap.png" width={'25px'} title="Bootstrap" alt="bootstrap"/>
-                <img src="./ico/react.png" width={'25px'} title="React" alt="react"/>
+                <img src="./ico/vue.png" width={'25px'} title="Vue.js" alt="vue.js"/>
                 <hr/>
 
                 <p id='cert'>Certificações: <select
@@ -113,7 +113,7 @@ console.log(selectedOption)
                                             <option className='option' value="HTML5">HTML5</option>
                                             <option className='option' value="CSS">CSS</option>
                                             <option className='option' value="Bootstrap">Bootstrap</option>
-                                            <option className='option' disabled value="React">React</option>
+                                            <option className='option' disabled value="Vue">Vue.js</option>
                                           </select></p>
               </div>
 

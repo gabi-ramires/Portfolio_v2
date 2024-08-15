@@ -15,7 +15,7 @@ const Projetos = () => {
                     <div className="cardPro">
                         <p><strong>Space Invaders</strong></p>
                         <hr/>
-                        <p>Site: <a href="https://serimar.epizy.com/" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://nave.free.nf/" target="_blank">Clique aqui</a></p>
                         <img src="./img/serimar.png" height={'220px'}/>
                         <p>Space Invaders é um jogo de nave espacial onde você atira em meteoros para ganhar pontos. Cadastre-se, faça login e controle a nave com o mouse.</p>
                         <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
@@ -24,16 +24,16 @@ const Projetos = () => {
                         <img src="./ico/mysql.png" width={'25px'} title="MySQL" alt="mysql"/>
                     </div>
 
-                    {/* Naruto */}
+                    {/* Viver Coometal */}
                     <div className="cardPro">
-                        <p><strong>API Naruto</strong></p>
+                        <p><strong>Viver Coometal</strong></p>
                         <hr/>
                         <p>Site: <a href="https://uzumaki.free.nf/" target="_blank">Clique aqui</a></p>
-                        <img src="./img/naruto.png" height= {'220px'}/>
-                        <p>Consuma informações de 1431 personagens do universo Naruto com esta aplicação React que utiliza a API NarutoDB.</p>
-                        <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
-                        <img src="./ico/react.png" width={'25px'} title="React" alt="react"/>
-                        <img src="./ico/node.png" width={'25px'} title="Node" alt="nodejs"/>
+                        <img src="./img/vivercoometal.png" height= {'220px'}/>
+                        <p>Projeto desenvolvido para pessoas autorizadas criarem e gerenciarem notícias do condomínio Viver Coometal.</p>
+                        <img src="./ico/vue.png" width={'25px'} title="JavaScript" alt="vue.js"/>
+                        <img src="./ico/bootstrap.png" width={'25px'} title="Bootstrap" alt="bootstrap"/>
+                        <img src="./ico/php.png" width={'25px'} title="PHP" alt="php"/>
                     </div>
 
                     {/* Marvel */}
@@ -64,7 +64,7 @@ const Projetos = () => {
                     <div className="cardPro">
                         <p><strong>Corrida das Frutas</strong></p>
                         <hr/>
-                        <p>Site: <a href="https://morango-fast.000webhostapp.com/" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://morango.netlify.app/" target="_blank">Clique aqui</a></p>
                         <img src="./img/morango.png" height= {'220px'}/>
                         <p>Jogo das Frutinhas é um jogo para 2 jogadores onde coletar frutas e alcançar a pontuação alvo leva à vitória.</p>
                         <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
@@ -77,7 +77,7 @@ const Projetos = () => {
                     <div className="cardPro">
                         <p><strong>Bola de Cristal</strong></p>
                         <hr/>
-                        <p>Site: <a href="http://boladecristal.epizy.com/" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://vamoscomecar.netlify.app/" target="_blank">Clique aqui</a></p>
                         <img src="./img/bola-de-cristal.png" height= {'220px'}/>
                         <p>Faça perguntas misteriosas e obtenha respostas aleatórias com a Bola de Cristal - uma diversão interativa online.</p>
                         <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
@@ -89,7 +89,7 @@ const Projetos = () => {
                     <div className="cardPro">
                         <p><strong>Fibonacci</strong></p>
                         <hr/>
-                        <p>Site: <a href="https://fibonacci.free.nf/" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://seqfibonacci.netlify.app/" target="_blank">Clique aqui</a></p>
                         <img src="./img/fibonacci.png" height= {'220px'}/>
                         <p>Calcule a sequência de Fibonacci até o número desejado com esta simples aplicação.</p>
                         <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
@@ -97,11 +97,11 @@ const Projetos = () => {
                         <img src="./ico/css.png" width={'25px'} title="CSS3" alt="css3"/>
                     </div>
 
-                    {/* Fibonacci */}
+                    {/* Jogo da Velha */}
                     <div className="cardPro">
                         <p><strong>Jogo da velha</strong></p>
                         <hr/>
-                        <p>Site: <a href="https://jogodavelha.free.nf/" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://gamedavelha.netlify.app" target="_blank">Clique aqui</a></p>
                         <img src="./img/jogodavelha.png" height= {'220px'}/>
                         <p>Divirta-se no Jogo da Velha clássico com música e vitórias emocionantes!</p>
                         <img src="./ico/js.png" width={'25px'} title="JavaScript" alt="javascript"/>
