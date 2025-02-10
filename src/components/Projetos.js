@@ -41,7 +41,7 @@ const Projetos = () => {
                     <div className="cardPro">
                         <p><strong>API Marvel</strong></p>
                         <hr/>
-                        <p>Site: <a href="https://api-marvel.free.nf/?i=1" target="_blank">Clique aqui</a></p>
+                        <p>Site: <a href="https://gabrielaramires.com.br/marvel" target="_blank">Clique aqui</a></p>
                         <img src="./img/marvel.png" height= {'220px'}/>
                         <p>Consuma a API Marvel para obter informações de personagens com este projeto. Testes unitários feito com PHPUnit.</p>
                         <img src="./ico/php.png" width={'25px'} title="PHP" alt="php"/>

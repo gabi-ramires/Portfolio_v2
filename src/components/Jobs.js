@@ -119,8 +119,9 @@ console.log(selectedOption)
 
               <div className="card">
                 <p><strong>Back-end </strong></p>
+                <img src="./svg/laravel.svg" width={'25px'} title="Laravel" alt="Laravel"/>
                 <img src="./ico/php.png" width={'25px'} title="PHP" alt="php"/>
-                <img src="./ico/phpunit.png" width={'25px'} title="PHPUnit" alt="phpunit"/>
+                <img src="./ico/phpunit.png" width={'25px'} title="PHPUnit" alt="phpunit"/>&nbsp;
                 <img src="./ico/mysql.png" width={'25px'} title="MySQL" alt="mysql"/>
                 <hr/>
                 <p id='cert'>Certificações: <select
@@ -133,6 +134,7 @@ console.log(selectedOption)
                                             <option className='option' value="PHP">PHP</option>
                                             <option className='option' value="PHPUnit">PHPUnit</option>
                                             <option className='option' value="MySQL">MySQL</option>
+                                            <option className='option' disabled value="Laravel">Laravel</option>
                                           </select></p>
               </div>
 
